@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(BG.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    
+}
+.Eng-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    font-size: 16px;
+}
+.dropdownicon{
+    width: 10px;
+    margin-left: 10px;
+}
+.langicon{
+    width: 15px;
+    margin-right: 10px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    
+    
+}
+
+.Sign-in-btn{
+    cursor: pointer;
+}
+.page1-content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.page1-content h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    line-height: 80px;
+    font-weight: 600;
+    width: 950px;
+}
+.page1-content h2{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.page1-content h3{
+    
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.email{
+    border-radius: 4px;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.email input{
+    background: transparent;
+    color: #fff;
+    padding: 13px 30px;
+    border-color: rgb(125, 128, 130);
+    font-size: 20px;
+    
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.email button{
+    background-color: #db0001;
+    color: #fff;
+    cursor: pointer;
+    padding: 13px 30px;
+   font-size: 20px;
+   border-radius: 4px;
+   border-color: #db0001;
+}
+hr{
+    height: 8px;
+    background-color: rgb(40, 40, 40);
+    border: none;
+}
+/* ------------------------------------------------------------page2----------------------------------------------------- */
+.page2{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.page2-content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.page2-txt{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.page2-txt h1{
+    font-family:'Poppins', sans-serif ;
+    margin-bottom: 10px;
+}
+.page2-txt h3{
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.page2-img{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.page2-img img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+/* ---------------------------------------------------------------------page3--------------------------------------------- */
+.page3{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.page3-content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.page3-txt{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.page3-txt h1{
+    font-family:'Poppins', sans-serif ;
+    margin-bottom: 10px;
+}
+.page3-txt h3{
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.page3-img{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.page3-img img{
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+/* ---------------------------------------------------------------------page4--------------------------------------------- */
+.page4{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.page4-content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.page4-txt{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.page4-txt h1{
+    font-family:'Poppins', sans-serif ;
+    margin-bottom: 10px;
+}
+.page4-txt h3{
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.page4-img{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.page4-img img{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+/* ---------------------------------------------------------------------page5--------------------------------------------- */
+.page5{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.page5-content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.page5-txt{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.page5-txt h1{
+    font-family:'Poppins', sans-serif ;
+    margin-bottom: 10px;
+}
+.page5-txt h3{
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.page5-img{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.page5-img img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+/* ---------------------------------------------------------------------page6--------------------------------------------- */
+.FAQ{
+    padding: 10px 10%;
+    text-align: center;
+    font-size: 18px;
+}
+.FAQ h1{
+    font-family:'Poppins', sans-serif ;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 40px;
+}
+.ques{
+    margin: 20px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.ques li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+
+}
+.ques li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.0s;
+}
+input[type="radio"]{
+    display: none;
+}
+.ques .contnt{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.ques input[type="radio"]:checked + label + .contnt{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.ques input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+small h3{
+    font-weight: 400;
+    margin-top: 0px;
+}
+.email2{
+    border-radius: 4px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    
+}
+.email2 input{
+    background: transparent;
+    color: #fff;
+    padding: 13px 30px;
+    border-color: rgb(125, 128, 130);
+    font-size: 20px;
+    
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.email2 button{
+    background-color: #db0001;
+    color: #fff;
+    cursor: pointer;
+    padding: 13px 30px;
+   font-size: 20px;
+   border-radius: 4px;
+   border-color: #db0001;
+}
+/* -----------------------------------------------------page7 --------------------------------------------  */
+.page7{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #fff;;
+
+}
+
+.page7 h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.page7-content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.page7 .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+
+}
+.page7 .col a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.page7 .Eng-btn{
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.NI{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* ---------------------------------------media queries for small screen---------------------- */
+@media only screen and (max-width: 600px){
+    .logo{
+        width: 100px;
+    }
+    nav button{
+        padding: 5px 10px;
+    }
+    nav .Eng-btn{
+        padding: 4px 8px;
+    }
+    .page1-content{
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+    }
+    .page1-content h1{
+        font-size: 15px;
+        width: 600px;
+        text-align: left;
+       
+    }
+    .page1-content h2{
+        font-size: 17px;
+        
+    }
+    .page1-content h3{
+        font-size: 14px;
+        
+    }
+    .email button{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .page2-txt, .page2-img{
+        flex-basis: 100%;
+    }
+    .page2 h1{
+        font-size: 30px;
+    }
+    .page2 h3{
+        font-size: 15px;
+    }
+    
+    .page2 .page2-content{
+        padding: 10px 0;
+    }
+    .page3-txt, .page3-img{
+        flex-basis: 100%;
+    }
+    .page3 h1{
+        font-size: 30px;
+    }
+    .page3 h3{
+        font-size: 15px;
+    }
+    
+    .page3 .page3-content{
+        padding: 10px 0;
+    }
+    .page4-txt, .page4-img{
+        flex-basis: 100%;
+    }
+    .page4 h1{
+        font-size: 30px;
+    }
+    .page4 h3{
+        font-size: 15px;
+    }
+   
+    .page4 .page4-content{
+        padding: 10px 0;
+    }
+    .page5-txt, .page5-img{
+        flex-basis: 100%;
+    }
+    .page5 h1{
+        font-size: 30px;
+    }
+    .page5 h3{
+        font-size: 15px;
+    }
+   
+    .page5 .page5-content{
+        padding: 10px 0;
+    }
+    .FAQ h2{
+        font-size: 20px;
+    }
+    .ques .contnt{
+        font-size: 14px;
+    }
+    .ques li label{
+        padding: 10px;
+        font-size: 14px;
+    }
+    label::after{
+        font-size: 22px;
+    }
+}
